@@ -9,7 +9,7 @@ const uniqueList = [...new Set(Menu.map((currentElement) => {
     })
   ),"All",];
 
-console.log(uniqueList);
+console.log(uniqueList); 
 
 const Restaurant = () => {
   const [menuData, setMenuData] = useState(Menu);
